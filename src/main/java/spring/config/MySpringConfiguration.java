@@ -22,4 +22,5 @@ public class MySpringConfiguration {
     public Warehouse warehouseB() throws IOException {
         return new Warehouse(0,Paths.get(fileLocation+"/warehouseB.txt"));
     }
+
 }
