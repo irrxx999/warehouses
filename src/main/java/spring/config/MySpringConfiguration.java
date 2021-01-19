@@ -18,6 +18,7 @@ public class MySpringConfiguration {
         return new Warehouse(10521,Paths.get(fileLocation+"/warehouseA.txt"));
     }
 
+
     @Bean
     public Warehouse warehouseB() throws IOException {
         return new Warehouse(0,Paths.get(fileLocation+"/warehouseB.txt"));
